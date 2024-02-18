@@ -1,13 +1,13 @@
 /* Grid of page */
 .container {
-    width: 99vw;
+    width: 98vw;
     margin: 0 auto;
     display: grid;
     grid-template-areas:
-        "header header header header header"
-        "menu menu menu menu menu"
-        "content content content content slidebar"
-        "footer footer footer footer footer";
+        "header header header header "
+        "menu menu menu menu "
+        "content content content content "
+        "footer footer footer footer ";
 }
 
 .footer-grid{
@@ -33,22 +33,11 @@
 }
 
 .content{
-    width: 75vw;
+    width: 100%;
     height: 100%;
     background-color: white;
     grid-area: content;
     text-align: center;
-}
-
-.slidebar{
-    width: 24vw;
-    height: 100%;
-    background-color: purple;
-    grid-area: slidebar;
-    text-align: center;
-    text-overflow: ellipsis;
-    white-space: normal;
-    overflow: auto;
 }
 
 .footer{
@@ -101,22 +90,27 @@
 .image1 {
     width: 100%;
     height: 100%;
-    background-color: cyan;
+    background-color: wheat;
     grid-area: image1;
     text-align: center;
 }
 .image2 {
     width: 100%;
     height: 100%;
-    background-color: red;
+    background-color: wheat;
     grid-area: image2;
     text-align: center;
+}
+.image1 img, .image2 img{
+    margin: auto;
+    width: 95%;
+    height: 95%;
 }
 /* ========================================================================= */
 
 /* Main Grid of Years page */
 .container-years {
-    width: 99vw;
+    width: 98vw;
     margin: 0 auto;
     display: grid;
     grid-template-areas:
@@ -180,84 +174,84 @@
 .assign1 {
     width: 100%;
     height: 100%;
-    background-color: red;
+    background-color: #e5212f;
     grid-area: assign1;
     text-align: center;
 }
 .content-assign1 {
     width: 100%;
     height: 100%;
-    background-color: purple;
+    background-color: wheat;
     grid-area: content-assign1;
     text-align: justify;
 }
 .assign2 {
     width: 100%;
     height: 100%;
-    background-color: cyan;
+    background-color: #d3af1b;
     grid-area: assign2;
     text-align: center;
 }
 .content-assign2 {
     width: 100%;
     height: 100%;
-    background-color: yellow;
+    background-color: wheat;
     grid-area: content-assign2;
     text-align: justify;
 }
 .assign3 {
     width: 100%;
     height: 100%;
-    background-color: red;
+    background-color: #d3af1b;
     grid-area: assign3;
     text-align: center;
 }
 .content-assign3 {
     width: 100%;
     height: 100%;
-    background-color: purple;
+    background-color: wheat;
     grid-area: content-assign3;
     text-align: justify;
 }
 .assign4 {
     width: 100%;
     height: 100%;
-    background-color: cyan;
+    background-color: #e5212f;
     grid-area: assign4;
     text-align: center;
 }
 .content-assign4 {
     width: 100%;
     height: 100%;
-    background-color: yellow;
+    background-color: wheat;
     grid-area: content-assign4;
     text-align: justify;
 }
 .assign5 {
     width: 100%;
     height: 100%;
-    background-color: red;
+    background-color: #e5212f;
     grid-area: assign5;
     text-align: center;
 }
 .content-assign5 {
     width: 100%;
     height: 100%;
-    background-color: purple;
+    background-color: wheat;
     grid-area: content-assign5;
     text-align: justify;
 }
 .assign6 {
     width: 100%;
     height: 100%;
-    background-color: cyan;
+    background-color: #d3af1b;
     grid-area: assign6;
     text-align: center;
 }
 .content-assign6 {
     width: 100%;
     height: 100%;
-    background-color: yellow;
+    background-color: wheat;
     grid-area: content-assign6;
     text-align: justify;
 }

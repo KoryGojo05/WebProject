@@ -4,7 +4,7 @@ body {
 }
 
 h1{
-    font-size: 45px;
+    font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     text-align: center;
@@ -13,7 +13,7 @@ h1{
 }
 
 h2{
-    font-size: 35px;
+    font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     text-align: center;
@@ -21,7 +21,7 @@ h2{
 }
 
 h3{
-    font-size: 23px;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     line-height: 1px;
@@ -85,6 +85,7 @@ li.menu-nav:last-child{
 li.menu-nav:hover{
     background-color: white;
     border-bottom: 3px solid black;
+    border-top: 3px solid black;
 }
 a.menu-nav{
     margin: auto;
@@ -100,35 +101,50 @@ a.menu-nav{
     text-decoration: none;
     color: black;
 }
+.title1 h2 a:hover, .title2 h2 a:hover{
+    color: white;
+}
 
 /* Assignaturas Years */
 .contents-years h2 { /* Titulos Asignaturas */
-    font-size: 30px;
+    font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     text-align: center;
     line-height: 10px;
 }
 .contents-years p { /* Contenido Asignaturas */
-    font-size: 20px;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     text-align: justify;
     margin-left: 10%;
     margin-right: 10%;
+}
+.image-assign{
+    width: 100%;
+    text-align: center;
+}
+.image-assign img{
+    width: 50%;
+    height: 50%;
     margin-bottom: 5%;
 }
 
 /* Lista Asignaturas */
 .content1 p, .content2 p{
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 5%;
     margin-right: 5%;
-    margin-bottom: 7%;
+    margin-bottom: 5%;
 }
-.content1 h3, .content1 ul, .content2 h3, .content2 ul{
+.content1 h3, .content2 h3{
     margin-left: 15%;
     margin-right: 15%;
+}
+.content1 ul, .content2 ul{
+    margin-left: 20%;
+    margin-right: 20%;
 }
 .content1 a, .content2 a{
     margin: 0 0 0 0;
@@ -137,7 +153,7 @@ a.menu-nav{
     margin-bottom: 5%;
 }
 .content1 ul li, .content2 ul li{
-    font-size: 20px;
+    font-size: 25px;
     list-style-type: decimal;
     margin: 0;
     padding: 0;
@@ -147,6 +163,9 @@ a.menu-nav{
 .content1 ul li a, .content2 ul li a{
     text-decoration: none;
     color: black;
+}
+.content1 ul li a:hover, .content2 ul li a:hover{
+    color: blue;
 }
 /* ========================================================================= */
 
